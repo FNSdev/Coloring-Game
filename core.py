@@ -110,7 +110,7 @@ class ColoringGame:
         if config.RULE_SET == 'classic':
             colors = config.CLASSIC_COLORS
             offsets = config.CLASSIC_OFFESTS
-        elif config.RULE_SET_OPTIONS == 'modern':
+        elif config.RULE_SET == 'modern':
             colors = config.MODERN_COLORS
             offsets = config.MODERN_OFFESTS
         return self._valid_colors(i, j, colors, offsets)

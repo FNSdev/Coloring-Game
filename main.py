@@ -21,7 +21,7 @@ def parse_args(args):
             if v in config.PLAY_AGAINST_OPTIONS:
                 config.PLAY_AGAINST = v
             else:
-                raise ValueError(f'Available rule sets: {config.PLAY_AGAINST_OPTIONS}')
+                raise ValueError(f'Available play against options: {config.PLAY_AGAINST_OPTIONS}')
 
 
 def main():
